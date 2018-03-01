@@ -269,3 +269,12 @@ javascripT://anything%0D%0A%0D%0Awindow.alert(document.cookie)
 ///google.com
 /////google.com/
 /////google.com
+ "//bladiebladiebla.com/",
+ "/%09/bladiebladiebla.com",
+ "/%5cbladiebladiebla.com",
+ "//bladiebladiebla.com/%2f%2e%2e",
+ "//bladiebladiebla.com/%2e%2e",
+ "<>//bladiebladiebla.com",
+ "/.bladiebladiebla.com",
+ "//;@bladiebladiebla.com",
+ "/@bladiebladiebla.com",
