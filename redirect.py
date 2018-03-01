@@ -1,7 +1,6 @@
 #!/usr/bin/env python
-import os
 import requests,sys,time,os
-os.system('cut -f1 -d, hosts.txt > subdomains.list');
+
 top = """
  #################################################
  # Open redirect Scanner for dummies like me :)  #
