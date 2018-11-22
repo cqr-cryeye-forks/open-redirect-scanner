@@ -34,7 +34,7 @@ def main():
 
     # second argument - payload string
 
-    payload = args.payload[0]
+    payloads = args.payload[0]
 
     #open file with subdomains and iterates
  
@@ -49,52 +49,46 @@ def main():
 		# loop for find the trace of all requests (303 is an open redirect) see the final destination
 
                 for line in f:
-		    
+		    with open(payloads) as p:
+			for payload in p:
+                    	    try:
 
-                    try:
+                        	line2 = line.strip()
 
-                        line2 = line.strip()
+                        	line3 = 'https://' + line2 + payload
 
-                        line3 = 'https://' + line2 + payload
+                        	print line3
 
-                        print line3
+                        	response = requests.get(line3, verify=True)    
 
-                        response = requests.get(line3, verify=True)    
+                        	print response
 
-                        print response
+                        	try:
 
-                        try:
-
-                            if response.history:
+                            	    if response.history:
                              
-                                print "Request was redirected"
+                                	print "Request was redirected"
                              
-                                for resp in response.history:
+                                	for resp in response.history:
 
-                                    print "|"
-                                    print resp.status_code, resp.url
+                                    	    print "|"
+                                    	    print resp.status_code, resp.url
                                     
 
-                                print "Final destination:"
+                                	print "Final destination:"
 
-                                print "+"
-                                print response.status_code, response.url
+                                	print "+"
+                                	print response.status_code, response.url
 
                                 
-                            else:
+                           	    else:
 
-                                print "Request was not redirected"
+                                	print "Request was not redirected"
 
                             
-                        except:
-                            print "connection error :("
+                        	except:
+                            	    print "connection error :("
 
-                    except:
+                   	    except:
 
-                        print "quitting.."
-
-try:
-	main()
-except IndexError:
-	print(" Usage: python "+sys.argv[0]+" [subdomains.file] [redirect.payload]\n")
-        print(" Example python "+sys.argv[0]+" uber.list '//yahoo.com/%2F..'\n")
+                        	print "quitting.."
