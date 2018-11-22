@@ -92,3 +92,9 @@ def main():
                    	    except:
 
                         	print "quitting.."
+
+try:
+	main()
+except IndexError:
+	print(" Usage: python "+sys.argv[0]+" [subdomains.file] [redirect.payload]\n")
+        print(" Example python "+sys.argv[0]+" uber.list '//yahoo.com/%2F..'\n")
