@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import requests,sys,time,os
+import requests,sys,time,os, argparse
 top = """
  #################################################
  # Open redirect Scanner for dummies like me :)  #
@@ -21,15 +21,20 @@ def main():
     #payload2 = '//www.yahoo.com//'
     #payload3 = '//www.yahoo.com//%2F%2E%2E'
 
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('-d', help='path to file of domain list', nargs=1, dest='domain', required=True)
+    parser.add_argument('-w', help='payload wordlist', nargs=1, dest='payload', required=True)
+
+    args = parser.parse_args()
+
     # first argument - file with subdomains
 
-    file = sys.argv[1]
+    file = args.domain
 
     # second argument - payload string
 
-    payload = sys.argv[2]
-
-
+    payload = args.payload
 
     #open file with subdomains and iterates
  
