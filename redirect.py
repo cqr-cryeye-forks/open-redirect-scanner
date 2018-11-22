@@ -30,11 +30,11 @@ def main():
 
     # first argument - file with subdomains
 
-    file = args.domain
+    file = args.domain[0]
 
     # second argument - payload string
 
-    payload = args.payload
+    payload = args.payload[0]
 
     #open file with subdomains and iterates
  
