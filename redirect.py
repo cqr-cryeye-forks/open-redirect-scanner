@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import requests,sys,time,os
+import requests,sys,time,os, argparse
 top = """
  #################################################
  # Open redirect Scanner for dummies like me :)  #
@@ -21,15 +21,20 @@ def main():
     #payload2 = '//www.yahoo.com//'
     #payload3 = '//www.yahoo.com//%2F%2E%2E'
 
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('-d', help='path to file of domain list', nargs=1, dest='domain', required=True)
+    parser.add_argument('-w', help='payload wordlist', nargs=1, dest='payload', required=True)
+
+    args = parser.parse_args()
+
     # first argument - file with subdomains
 
-    file = sys.argv[1]
+    file = args.domain[0]
 
     # second argument - payload string
 
-    payload = sys.argv[2]
-
-
+    payloads = args.payload[0]
 
     #open file with subdomains and iterates
  
@@ -44,49 +49,49 @@ def main():
 		# loop for find the trace of all requests (303 is an open redirect) see the final destination
 
                 for line in f:
-		    
+		    with open(payloads) as p:
+			for payload in p:
+                    	    try:
 
-                    try:
+                        	line2 = line.strip()
 
-                        line2 = line.strip()
+                        	line3 = 'https://' + line2 + payload
 
-                        line3 = 'https://' + line2 + payload
+                        	print line3
 
-                        print line3
+                        	response = requests.get(line3, verify=True)    
 
-                        response = requests.get(line3, verify=True)    
+                        	print response
 
-                        print response
+                        	try:
 
-                        try:
-
-                            if response.history:
+                            	    if response.history:
                              
-                                print "Request was redirected"
+                                	print "Request was redirected"
                              
-                                for resp in response.history:
+                                	for resp in response.history:
 
-                                    print "|"
-                                    print resp.status_code, resp.url
+                                    	    print "|"
+                                    	    print resp.status_code, resp.url
                                     
 
-                                print "Final destination:"
+                                	print "Final destination:"
 
-                                print "+"
-                                print response.status_code, response.url
+                                	print "+"
+                                	print response.status_code, response.url
 
                                 
-                            else:
+                           	    else:
 
-                                print "Request was not redirected"
+                                	print "Request was not redirected"
 
                             
-                        except:
-                            print "connection error :("
+                        	except:
+                            	    print "connection error :("
 
-                    except:
+                   	    except:
 
-                        print "quitting.."
+                        	print "quitting.."
 
 try:
 	main()
