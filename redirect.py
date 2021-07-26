@@ -10,6 +10,7 @@ from typing import List
 import requests
 import urllib3
 
+urllib3.disable_warnings()
 results: List[dict] = []
 
 
