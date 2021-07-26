@@ -1,0 +1,898 @@
+[
+   {
+      "link": "https://cqr.company//google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//example.com@google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//example.com@google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///example.com@google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///example.com@google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company////google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company////google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company/https://example.com@google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company/https://example.com@google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/https:/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company/https://google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company/https://google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/https:/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company////example.com@google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company////example.com@google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//google.com//\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//google.com//%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//example.com@google.com//\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//example.com@google.com//%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///example.com@google.com//\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///example.com@google.com//%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///google.com//\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///google.com//%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company////google.com//\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company////google.com//%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company////example.com@google.com//\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company////example.com@google.com//%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//https://google.com//\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//https://google.com//%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/https:/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//https://example.com@google.com//\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//https://example.com@google.com//%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/https:/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///example.com@google.com/%2e%2e\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///example.com@google.com/..%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///google.com/%2e%2e\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///google.com/..%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company////example.com@google.com/%2e%2e\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company////example.com@google.com/..%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company////google.com/%2e%2e\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company////google.com/..%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company/https://google.com/%2e%2e\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company/https://google.com/..%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/https:/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//https:///google.com/%2e%2e\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//https:///google.com/..%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/https:/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//example.com@https:///google.com/%2e%2e\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//example.com@https:///google.com/..%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/example.com@https:/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company/https://example.com@google.com/%2e%2e\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company/https://example.com@google.com/..%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/https:/example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//%09/google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//%09/google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%09/google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///%09/example.com@google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///%09/example.com@google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%09/example.com@google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///%09/google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///%09/google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%09/google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company////%09/google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company////%09/google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%09/google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company////%09/example.com@google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company////%09/example.com@google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%09/example.com@google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//%09/example.com@google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//%09/example.com@google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%09/example.com@google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//%5cexample.com@google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//%5Cexample.com@google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%5Cexample.com@google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//%5cgoogle.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//%5Cgoogle.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%5Cgoogle.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///%5cexample.com@google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///%5Cexample.com@google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%5Cexample.com@google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///%5cgoogle.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///%5Cgoogle.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%5Cgoogle.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company////%5cgoogle.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company////%5Cgoogle.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%5Cgoogle.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company////%5cexample.com@google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company////%5Cexample.com@google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%5Cexample.com@google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company/https://%5cgoogle.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company/https://%5Cgoogle.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/https:/%5Cgoogle.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company/https://%5cexample.com@google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company/https://%5Cexample.com@google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/https:/%5Cexample.com@google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//google%E3%80%82com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//google%E3%80%82com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google%E3%80%82com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//google.com\\@example.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//google.com%5C@example.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com%5C@example.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//google.com:80#@example.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//google.com:80#@example.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com:80#@example.com/%0A",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//3H6k7lIAiqjfNeN@example.com+@google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//3H6k7lIAiqjfNeN@example.com+@google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/3H6k7lIAiqjfNeN@example.com+@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//3H6k7lIAiqjfNeN@example.com@google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//3H6k7lIAiqjfNeN@example.com@google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/3H6k7lIAiqjfNeN@example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//XY>.7d8T\\205pZM@example.com+@google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//XY%3E.7d8T%5C205pZM@example.com+@google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/XY%3E.7d8T%5C205pZM@example.com+@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//XY>.7d8T\\205pZM@example.com@google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//XY%3E.7d8T%5C205pZM@example.com@google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/XY%3E.7d8T%5C205pZM@example.com@google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//example.com+&@google.com#+@example.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//example.com+&@google.com#+@example.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/example.com+&@google.com#+@example.com/%0A",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//google.com:80?@example.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//google.com:80?@example.com/%0A",
+            "code": 302
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com:80?@example.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//google.com\\texample.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//google.com%5Ctexample.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com%5Ctexample.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company//;@google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company//;@google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/;@google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company/x:1/:///%01javascript:alert(document.cookie)/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company/x:1/:///%01javascript:alert(document.cookie)/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/x:1/:/%01javascript:alert(document.cookie)/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company/http://google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company/http://google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/http:/google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///\\;@google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///%5C;@google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/%5C;@google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company///google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company///google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company/////google.com/\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company/////google.com/%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com/",
+            "code": 404
+         }
+      ]
+   },
+   {
+      "link": "https://cqr.company/////google.com\n",
+      "link_code": 404,
+      "data": [
+         {
+            "result": "Request was redirected",
+            "link": "https://cqr.company/////google.com%0A",
+            "code": 301
+         },
+         {
+            "result": "Final destination",
+            "link": "https://cqr.company/google.com",
+            "code": 404
+         }
+      ]
+   }
+]
