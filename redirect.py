@@ -14,18 +14,37 @@ urllib3.disable_warnings()
 results: List[dict] = []
 
 
+def get_root_url(domain: str):
+    u = None
+    prefixs = ('http://', 'https://')
+    for prefix in prefixs:
+        try:
+            url = f'{prefix}{domain}'
+            _ = requests.get(url=url, timeout=10)
+            u = url
+        except (requests.exceptions.RequestException, urllib3.exceptions.HTTPError):
+            pass
+
+    return u
+
+
 def url_generator(domains_path: str, payload_path: str):
     with open(domains_path) as d:
         with open(payload_path) as p:
             for domain in d:
+                root_url = get_root_url(domain=domain.strip())
+
+                if not root_url:
+                    continue
+
                 for payload in p:
-                    yield f'https://{domain.strip()}{payload}'
+                    yield f'{root_url}{payload}'
 
 
 def test_open_redirect(s: requests.Session, url: str):
     print(url)
     try:
-        resp = s.get(url=url, timeout=10, verify=False)
+        resp = s.get(url=url, timeout=20, verify=False)
         if not resp.history:
             return
 
